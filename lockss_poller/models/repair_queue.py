@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from lockss_poller.lockss-poller-python.link_desc import LinkDesc  # noqa: F401,E501
+from lockss_poller.models.link_desc import LinkDesc  # noqa: F401,E501
 
 
 class RepairQueue(object):

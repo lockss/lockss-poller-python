@@ -16,7 +16,7 @@ from __future__ import absolute_import
 import unittest
 
 import lockss_poller
-from lockss_poller.lockss-poller-python.page_desc import PageDesc  # noqa: E501
+from lockss_poller.models.page_desc import PageDesc  # noqa: E501
 from lockss_poller.rest import ApiException
 
 

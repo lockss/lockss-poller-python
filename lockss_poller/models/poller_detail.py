@@ -16,10 +16,10 @@ import re  # noqa: F401
 
 import six
 
-from lockss_poller.lockss-poller-python.peer_data import PeerData  # noqa: F401,E501
-from lockss_poller.lockss-poller-python.poll_desc import PollDesc  # noqa: F401,E501
-from lockss_poller.lockss-poller-python.repair_queue import RepairQueue  # noqa: F401,E501
-from lockss_poller.lockss-poller-python.tally_data import TallyData  # noqa: F401,E501
+from lockss_poller.models.peer_data import PeerData  # noqa: F401,E501
+from lockss_poller.models.poll_desc import PollDesc  # noqa: F401,E501
+from lockss_poller.models.repair_queue import RepairQueue  # noqa: F401,E501
+from lockss_poller.models.tally_data import TallyData  # noqa: F401,E501
 
 
 class PollerDetail(object):

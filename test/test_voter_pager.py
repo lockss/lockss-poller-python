@@ -16,7 +16,7 @@ from __future__ import absolute_import
 import unittest
 
 import lockss_poller
-from lockss_poller.lockss-poller-python.voter_pager import VoterPager  # noqa: E501
+from lockss_poller.models.voter_pager import VoterPager  # noqa: E501
 from lockss_poller.rest import ApiException
 
 

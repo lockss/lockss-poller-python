@@ -24,7 +24,7 @@ import six
 from six.moves.urllib.parse import quote
 
 from lockss_poller.configuration import Configuration
-import lockss_poller.lockss-poller-python
+import lockss_poller.models
 from lockss_poller import rest
 
 
@@ -258,7 +258,7 @@ class ApiClient(object):
             if klass in self.NATIVE_TYPES_MAPPING:
                 klass = self.NATIVE_TYPES_MAPPING[klass]
             else:
-                klass = getattr(lockss_poller.lockss-poller-python, klass)
+                klass = getattr(lockss_poller.models, klass)
 
         if klass in self.PRIMITIVE_TYPES:
             return self.__deserialize_primitive(data, klass)

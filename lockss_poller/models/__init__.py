@@ -1,7 +1,6 @@
 # coding: utf-8
 
 # flake8: noqa
-
 """
     LOCKSS Poller Service REST API
 
@@ -15,16 +14,7 @@
 
 from __future__ import absolute_import
 
-# import apis into sdk package
-from lockss_poller.api.poll_detail_api import PollDetailApi
-from lockss_poller.api.poller_polls_api import PollerPollsApi
-from lockss_poller.api.service_api import ServiceApi
-from lockss_poller.api.voter_polls_api import VoterPollsApi
-
-# import ApiClient
-from lockss_poller.api_client import ApiClient
-from lockss_poller.configuration import Configuration
-# import models into sdk package
+# import models into model package
 from lockss_poller.models.api_status import ApiStatus
 from lockss_poller.models.cached_uri_set_spec import CachedUriSetSpec
 from lockss_poller.models.link_desc import LinkDesc

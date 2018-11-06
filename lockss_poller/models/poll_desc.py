@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from lockss_poller.lockss-poller-python.cached_uri_set_spec import CachedUriSetSpec  # noqa: F401,E501
+from lockss_poller.models.cached_uri_set_spec import CachedUriSetSpec  # noqa: F401,E501
 
 
 class PollDesc(object):

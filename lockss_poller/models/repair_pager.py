@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from lockss_poller.lockss-poller-python.page_desc import PageDesc  # noqa: F401,E501
-from lockss_poller.lockss-poller-python.repair_data import RepairData  # noqa: F401,E501
+from lockss_poller.models.page_desc import PageDesc  # noqa: F401,E501
+from lockss_poller.models.repair_data import RepairData  # noqa: F401,E501
 
 
 class RepairPager(object):

@@ -16,7 +16,7 @@ from __future__ import absolute_import
 import unittest
 
 import lockss_poller
-from lockss_poller.lockss-poller-python.url_pager import UrlPager  # noqa: E501
+from lockss_poller.models.url_pager import UrlPager  # noqa: E501
 from lockss_poller.rest import ApiException
 
 

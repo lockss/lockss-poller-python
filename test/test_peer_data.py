@@ -16,7 +16,7 @@ from __future__ import absolute_import
 import unittest
 
 import lockss_poller
-from lockss_poller.lockss-poller-python.peer_data import PeerData  # noqa: E501
+from lockss_poller.models.peer_data import PeerData  # noqa: E501
 from lockss_poller.rest import ApiException
 
 

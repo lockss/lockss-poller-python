@@ -16,7 +16,7 @@ from __future__ import absolute_import
 import unittest
 
 import lockss_poller
-from lockss_poller.lockss-poller-python.cached_uri_set_spec import CachedUriSetSpec  # noqa: E501
+from lockss_poller.models.cached_uri_set_spec import CachedUriSetSpec  # noqa: E501
 from lockss_poller.rest import ApiException
 
 

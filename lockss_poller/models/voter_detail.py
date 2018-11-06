@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from lockss_poller.lockss-poller-python.poll_desc import PollDesc  # noqa: F401,E501
+from lockss_poller.models.poll_desc import PollDesc  # noqa: F401,E501
 
 
 class VoterDetail(object):

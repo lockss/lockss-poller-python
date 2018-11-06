@@ -16,7 +16,7 @@ from __future__ import absolute_import
 import unittest
 
 import lockss_poller
-from lockss_poller.lockss-poller-python.poll_desc import PollDesc  # noqa: E501
+from lockss_poller.models.poll_desc import PollDesc  # noqa: E501
 from lockss_poller.rest import ApiException
 
 

@@ -16,7 +16,7 @@ from __future__ import absolute_import
 import unittest
 
 import lockss_poller
-from lockss_poller.lockss-poller-python.repair_data import RepairData  # noqa: E501
+from lockss_poller.models.repair_data import RepairData  # noqa: E501
 from lockss_poller.rest import ApiException
 
 
